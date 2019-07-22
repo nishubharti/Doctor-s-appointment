@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/registerck"
+        android:title="Add Clerk">
+    </item>
+    <item
+        android:id="@+id/viewck"
+        android:title="View Clerk">
+    </item>
+    <item android:id="@+id/logout"
+        android:title="LogOut"></item>
+
+    <item android:id="@+id/sms"
+        android:title="send sms"></item>
+
+    <item android:id="@+id/pat"
+        android:title="view patient"></item>
+
+
+
+
+</menu>

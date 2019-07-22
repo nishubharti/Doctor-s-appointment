@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Doc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Happy Life</string>
+    <string name="nav_header_subtitle">We care for you</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="official">official</string>
+    <string name="action_settings">Refresh</string>
+    <string name="google_maps_API_key">AIzaSyDS6EkmQ7ezlb8CjEPZqZiayZ12LYhUij4
+</string>
+    <string name="google_map">
+AIzaSyC_JZpqXzwD_SKgoKGMn0B_9eVg-diNCvM
+</string>
+</resources>

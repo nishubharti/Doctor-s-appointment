@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patient">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ima">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Patient Registration"
+                android:textColor="#0a0909"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Patient Details"
+                android:textColor="#0a0909"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Registration number"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter Patient Reg. No."
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/Regno"/>
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Name"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter Patient's Name"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/name"/>
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Age"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter Age"
+                        android:inputType="number"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/age"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="DOB"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Date of Birth"
+                        android:textColor="#0a0909"
+                        android:id="@+id/dob"
+                        />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Gender"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+                    <RadioGroup android:orientation="horizontal"
+                        android:id="@+id/gen">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="Male"
+                            android:textColor="#0a0909"
+                            android:textSize="15dp" />
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="Female"
+                            android:textColor="#0a0909"
+                            android:textSize="15dp" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Address"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter address"
+                        android:inputType="textMultiLine"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/add"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Mobile No."
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter 10 digit no."
+                        android:inputType="number"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/number"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Email Id"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Enter email Id"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/email"/>
+
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Medical Record"
+                android:textColor="#0a0909"
+                android:textSize="20dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Description of Problem"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Specify your problem"
+                        android:inputType="textMultiLine"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/problm"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Treatments Undertaken"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:hint="Specify your treatments"
+                        android:inputType="textMultiLine"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/treat"/>
+
+                </TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Appointment Details"
+                    android:textColor="#0a0909"
+                    android:textSize="20dp" />
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Appointment Date"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/date"
+
+                        />
+
+                </TableRow>
+
+                <TableRow>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="Token Number"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:inputType="textAutoComplete"
+                        android:textColor="#0a0909"
+                        android:textSize="15dp"
+                        android:id="@+id/token"/>
+
+
+
+                </TableRow>
+
+
+
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Register"
+                android:textColor="#0a0909"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:background="#f748c0"
+                />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

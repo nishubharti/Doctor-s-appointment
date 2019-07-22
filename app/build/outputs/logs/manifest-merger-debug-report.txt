@@ -1,0 +1,819 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+MERGED from [com.android.support:multidex:1.0.3] /home/nishu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/03f4410ba5bf939e9e1a37d1f6129ea8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4877a782dbf3bd39fbe3ebfa6dbdee0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/ac186c0c31015b2dcc9f1b904454b6d9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/0e9057c4aa83ff7810276223d09999ca/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/64d37cefda5865e2eddb80e06027a3a7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/f23bb73dd828d71841040e39043fae9e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nishu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a80278c6112486e95733c756e32130fe/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/ae54b83e542ebea99e64d4e359754621/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/410eb1211da0c972bd710d857e2b34a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/885294e0736698be011a380a30ef39b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/78180e7f3ae986cbc75466e2f0659ee6/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/bd929fa53038958371e017b15e18b2e2/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/3ceeed239546b6d0779d32f7c9eab574/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/65c74475fd05f2bc44a2b9c563d76ae2/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7795e9a51d012fa125fbfac5bfc7400f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/2c0c59ec84d84b94e13c8e636ce4c69a/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/22ccafebfb7a365c30baf1fb0ef466be/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/26ab968e9bca650696bb5d621bf3e9d3/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/348a2185f4992a6d824728eab2799b7e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/3ae1dddf317676fada2a2d0188ed2868/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/65d7c3394d36a78347cc36e9c350c264/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/f1c5ecdb2507704a176541d7d4f4c74a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/377602a5517c8e7b524640636008c2a8/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/95a4a8e317e43939eb65ececf2cd0297/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/003f58550358ea1fe53626d7edc8507d/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/9bae504da1050462ed21aa4b2be0ee35/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/5c64f0b1c727e54e2665a47c0f070904/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3aba776496d5117b2c7f6ba8732d7b63/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/e6851c5ce21d462267d8797f905aa0e5/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/e37d0119ef83f839fb9376f42673b646/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/0df3db7727f27896c2828f1980eb3d79/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/1abdc34ef6b5fa13b52bbf1ee26e6c75/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/6e0c6518c64f98a44512f5ce4664f772/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/1c3917abad58818925b7c8cc5872feca/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/cb8af439728e3c31ffd21303f692add0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/9766d52993b8eac3c52643e9251de07f/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/d3f3290342a0bbfba895168d76a140b5/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/a5dc5139b35d8435e3a65ff72406d931/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/524c0ccf79677bbece1a052115bea1ee/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/73c671f05f207984f8b372bef932a238/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a24337794d0e49c8e938cd9d13f80b23/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/ba09a7e9831f041ab81f981b64f33226/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/32c06e4fe19654ba4aa8eb0d65290d06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/b1ec03146bf572272390b7f4728728a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/eb99e51ca9707f7b241edc32571f47df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4275b71484d7676968a10af93ba15ad6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/af464f643da90f907026cfb8fe150e87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/5995e7a71481c2cd8e8cc4a484c2e92b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/daef3dfd5eb5e0340a24d5fa585a9253/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/f77d933184c465934e34ce8453979218/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:1-58:12
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:12:5-98
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:12:22-95
+application
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:14:5-56:19
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/ac186c0c31015b2dcc9f1b904454b6d9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/ac186c0c31015b2dcc9f1b904454b6d9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/0e9057c4aa83ff7810276223d09999ca/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/0e9057c4aa83ff7810276223d09999ca/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/64d37cefda5865e2eddb80e06027a3a7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/64d37cefda5865e2eddb80e06027a3a7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nishu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a80278c6112486e95733c756e32130fe/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nishu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a80278c6112486e95733c756e32130fe/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/3ceeed239546b6d0779d32f7c9eab574/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/3ceeed239546b6d0779d32f7c9eab574/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/2c0c59ec84d84b94e13c8e636ce4c69a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/2c0c59ec84d84b94e13c8e636ce4c69a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/22ccafebfb7a365c30baf1fb0ef466be/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/22ccafebfb7a365c30baf1fb0ef466be/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/26ab968e9bca650696bb5d621bf3e9d3/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/26ab968e9bca650696bb5d621bf3e9d3/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/348a2185f4992a6d824728eab2799b7e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/348a2185f4992a6d824728eab2799b7e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/3ae1dddf317676fada2a2d0188ed2868/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/3ae1dddf317676fada2a2d0188ed2868/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/65d7c3394d36a78347cc36e9c350c264/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/65d7c3394d36a78347cc36e9c350c264/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/f1c5ecdb2507704a176541d7d4f4c74a/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/f1c5ecdb2507704a176541d7d4f4c74a/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/377602a5517c8e7b524640636008c2a8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/377602a5517c8e7b524640636008c2a8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/95a4a8e317e43939eb65ececf2cd0297/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/95a4a8e317e43939eb65ececf2cd0297/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/9bae504da1050462ed21aa4b2be0ee35/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/9bae504da1050462ed21aa4b2be0ee35/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3aba776496d5117b2c7f6ba8732d7b63/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3aba776496d5117b2c7f6ba8732d7b63/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/e6851c5ce21d462267d8797f905aa0e5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/e6851c5ce21d462267d8797f905aa0e5/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/e37d0119ef83f839fb9376f42673b646/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/e37d0119ef83f839fb9376f42673b646/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/0df3db7727f27896c2828f1980eb3d79/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/0df3db7727f27896c2828f1980eb3d79/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/1abdc34ef6b5fa13b52bbf1ee26e6c75/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/1abdc34ef6b5fa13b52bbf1ee26e6c75/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/6e0c6518c64f98a44512f5ce4664f772/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/6e0c6518c64f98a44512f5ce4664f772/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/1c3917abad58818925b7c8cc5872feca/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/1c3917abad58818925b7c8cc5872feca/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/cb8af439728e3c31ffd21303f692add0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/cb8af439728e3c31ffd21303f692add0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/73c671f05f207984f8b372bef932a238/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/73c671f05f207984f8b372bef932a238/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a24337794d0e49c8e938cd9d13f80b23/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a24337794d0e49c8e938cd9d13f80b23/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:palette-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/5995e7a71481c2cd8e8cc4a484c2e92b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/5995e7a71481c2cd8e8cc4a484c2e92b/AndroidManifest.xml:22:5-23:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.example.nishu.doc.MainActivity
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:21:9-24:59
+	android:label
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:22:13-41
+meta-data#com.google.android.gms.version
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:26:9-28:69
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:28:13-66
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:27:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:29:9-31:71
+	android:value
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:31:13-68
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:30:13-58
+activity#com.example.nishu.doc.Front
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:33:9-39:20
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:33:19-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:37:27-74
+activity#com.example.nishu.doc.LoginModule
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:40:9-49
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:40:19-46
+activity#com.example.nishu.doc.DoctorLogin
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:41:9-49
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:41:19-46
+activity#com.example.nishu.doc.ClerkLogin
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:42:9-48
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:42:19-45
+activity#com.example.nishu.doc.Doctor
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:43:9-44
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:43:19-41
+activity#com.example.nishu.doc.ViewClerk
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:44:9-47
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:44:19-44
+activity#com.example.nishu.doc.RegisterClerk
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:45:9-51
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:45:19-48
+activity#com.example.nishu.doc.UpdateClerk
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:46:9-49
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:46:19-46
+activity#com.example.nishu.doc.Sendsms
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:47:9-45
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:47:19-42
+activity#com.example.nishu.doc.ViewData
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:48:9-46
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:48:19-43
+activity#com.example.nishu.doc.Wehelp
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:49:9-44
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:49:19-41
+activity#com.example.nishu.doc.AppointmentList
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:50:9-53
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:50:19-50
+activity#com.example.nishu.doc.Patient
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:51:9-45
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:51:19-42
+activity#com.example.nishu.doc.ViewPatient
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:52:9-49
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:52:19-46
+activity#com.example.nishu.doc.Map_Activity
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:53:9-50
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:53:19-47
+activity#com.example.nishu.doc.Doclist
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:54:9-45
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:54:19-42
+activity#com.example.nishu.doc.SecondActivity
+ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:55:9-61
+	android:name
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml:55:19-49
+uses-sdk
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /home/nishu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/03f4410ba5bf939e9e1a37d1f6129ea8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/nishu/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/03f4410ba5bf939e9e1a37d1f6129ea8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4877a782dbf3bd39fbe3ebfa6dbdee0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4877a782dbf3bd39fbe3ebfa6dbdee0a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/ac186c0c31015b2dcc9f1b904454b6d9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-11.4.0.aar/ac186c0c31015b2dcc9f1b904454b6d9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/0e9057c4aa83ff7810276223d09999ca/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.4.0.aar/0e9057c4aa83ff7810276223d09999ca/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/64d37cefda5865e2eddb80e06027a3a7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/64d37cefda5865e2eddb80e06027a3a7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/f23bb73dd828d71841040e39043fae9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/f23bb73dd828d71841040e39043fae9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nishu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a80278c6112486e95733c756e32130fe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/nishu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a80278c6112486e95733c756e32130fe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/ae54b83e542ebea99e64d4e359754621/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/ae54b83e542ebea99e64d4e359754621/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/410eb1211da0c972bd710d857e2b34a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/410eb1211da0c972bd710d857e2b34a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/885294e0736698be011a380a30ef39b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/885294e0736698be011a380a30ef39b0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/78180e7f3ae986cbc75466e2f0659ee6/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/78180e7f3ae986cbc75466e2f0659ee6/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/bd929fa53038958371e017b15e18b2e2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.4.0.aar/bd929fa53038958371e017b15e18b2e2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/3ceeed239546b6d0779d32f7c9eab574/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.4.0.aar/3ceeed239546b6d0779d32f7c9eab574/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/65c74475fd05f2bc44a2b9c563d76ae2/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.4.0.aar/65c74475fd05f2bc44a2b9c563d76ae2/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7795e9a51d012fa125fbfac5bfc7400f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.4.0.aar/7795e9a51d012fa125fbfac5bfc7400f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/2c0c59ec84d84b94e13c8e636ce4c69a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-config-11.4.0.aar/2c0c59ec84d84b94e13c8e636ce4c69a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/22ccafebfb7a365c30baf1fb0ef466be/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.4.0.aar/22ccafebfb7a365c30baf1fb0ef466be/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/26ab968e9bca650696bb5d621bf3e9d3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-games-11.4.0.aar/26ab968e9bca650696bb5d621bf3e9d3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/348a2185f4992a6d824728eab2799b7e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.4.0.aar/348a2185f4992a6d824728eab2799b7e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/3ae1dddf317676fada2a2d0188ed2868/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.4.0.aar/3ae1dddf317676fada2a2d0188ed2868/AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/65d7c3394d36a78347cc36e9c350c264/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.0.aar/65d7c3394d36a78347cc36e9c350c264/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/f1c5ecdb2507704a176541d7d4f4c74a/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.4.0.aar/f1c5ecdb2507704a176541d7d4f4c74a/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/377602a5517c8e7b524640636008c2a8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.4.0.aar/377602a5517c8e7b524640636008c2a8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/95a4a8e317e43939eb65ececf2cd0297/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.4.0.aar/95a4a8e317e43939eb65ececf2cd0297/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/003f58550358ea1fe53626d7edc8507d/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.4.0.aar/003f58550358ea1fe53626d7edc8507d/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/9bae504da1050462ed21aa4b2be0ee35/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.4.0.aar/9bae504da1050462ed21aa4b2be0ee35/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/5c64f0b1c727e54e2665a47c0f070904/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.4.0.aar/5c64f0b1c727e54e2665a47c0f070904/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3aba776496d5117b2c7f6ba8732d7b63/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3aba776496d5117b2c7f6ba8732d7b63/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/e6851c5ce21d462267d8797f905aa0e5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-places-11.4.0.aar/e6851c5ce21d462267d8797f905aa0e5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.4.0.aar/2d3ca8493134f6cc1974fc5678c85074/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/e37d0119ef83f839fb9376f42673b646/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.4.0.aar/e37d0119ef83f839fb9376f42673b646/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/0df3db7727f27896c2828f1980eb3d79/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.4.0.aar/0df3db7727f27896c2828f1980eb3d79/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/1abdc34ef6b5fa13b52bbf1ee26e6c75/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.4.0.aar/1abdc34ef6b5fa13b52bbf1ee26e6c75/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/6e0c6518c64f98a44512f5ce4664f772/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.4.0.aar/6e0c6518c64f98a44512f5ce4664f772/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/1c3917abad58818925b7c8cc5872feca/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.4.0.aar/1c3917abad58818925b7c8cc5872feca/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/cb8af439728e3c31ffd21303f692add0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.4.0.aar/cb8af439728e3c31ffd21303f692add0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.0.aar/0e9c5dbede693d33875be0a2cab28223/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/9766d52993b8eac3c52643e9251de07f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-11.4.0.aar/9766d52993b8eac3c52643e9251de07f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/d3f3290342a0bbfba895168d76a140b5/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.4.0.aar/d3f3290342a0bbfba895168d76a140b5/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/a5dc5139b35d8435e3a65ff72406d931/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.4.0.aar/a5dc5139b35d8435e3a65ff72406d931/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/524c0ccf79677bbece1a052115bea1ee/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.4.0.aar/524c0ccf79677bbece1a052115bea1ee/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/73c671f05f207984f8b372bef932a238/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.4.0.aar/73c671f05f207984f8b372bef932a238/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a24337794d0e49c8e938cd9d13f80b23/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a24337794d0e49c8e938cd9d13f80b23/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/7da6b317e83fc83878e657235f7f90d7/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/ba09a7e9831f041ab81f981b64f33226/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/ba09a7e9831f041ab81f981b64f33226/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/32c06e4fe19654ba4aa8eb0d65290d06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/32c06e4fe19654ba4aa8eb0d65290d06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/b1ec03146bf572272390b7f4728728a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/b1ec03146bf572272390b7f4728728a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/eb99e51ca9707f7b241edc32571f47df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/eb99e51ca9707f7b241edc32571f47df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4275b71484d7676968a10af93ba15ad6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/4275b71484d7676968a10af93ba15ad6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/af464f643da90f907026cfb8fe150e87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/af464f643da90f907026cfb8fe150e87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/5995e7a71481c2cd8e8cc4a484c2e92b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/5995e7a71481c2cd8e8cc4a484c2e92b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/daef3dfd5eb5e0340a24d5fa585a9253/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/daef3dfd5eb5e0340a24d5fa585a9253/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/f77d933184c465934e34ce8453979218/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /home/nishu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/f77d933184c465934e34ce8453979218/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.0.aar/78180e7f3ae986cbc75466e2f0659ee6/AndroidManifest.xml:17:42-92
+	android:targetSdkVersion
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		ADDED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nishu/AndroidStudioProjects/Doc/app/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.4.0.aar/6876bd0900e6f7dfe65a89e074f1b8ae/AndroidManifest.xml:7:18-90
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.0.aar/5ff11d2846fbe532674e0b09330772b9/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.0.aar/aadfa6159c241f469473c4f3269c6356/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:27:9-28:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:27:85-107
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:27:108-132
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:27:19-84
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:29:9-132
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:29:83-105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:29:106-130
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:29:18-82
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:30:9-192
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:30:143-165
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:30:166-190
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:30:86-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.0.aar/14322f31ab55d98bc7a3da36c4b9f0a7/AndroidManifest.xml:30:18-85
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.0.aar/7f7532f819c245fc34de6d1393471eb5/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.4.0.aar/e93d641daa64e1b8a3a500d176e101b5/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.0.aar/8ce38a8c0a691e14159a1b10a47b60b1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.0.aar/88509208a3ddd04e3c77788bd61a2c7a/AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.0.aar/d8108e6a938d70ced9fb9e8682f603a0/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/398bdd9928269cf8a6698466f9c6b95e/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.4.0.aar/8371f78abfa2655bb4fc89f8ea94cc64/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.example.nishu.doc
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.0.aar/9e2ca18f2e85738fd8308b33aa2272e4/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.0.aar/4256e506d02bbaa9a504d72f02135d1d/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.0.aar/28317c7028817ec68850feec26b7e6e7/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:17-71
+permission#com.example.nishu.doc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:26:22-76
+uses-permission#com.example.nishu.doc.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.nishu.doc
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:33:27-58
+category#com.example.nishu.doc
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.0.aar/499d6dd9d919c58672b0b47b4c1ec4cf/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/firebase-common-11.4.0.aar/38d5740a990d4909ac41882b7837e83c/AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/nishu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/27ec78e3ad462f19f3f1cfd98c5bd5b4/AndroidManifest.xml:26:13-58

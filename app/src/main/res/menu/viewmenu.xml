@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Update Clerk"
+        android:id="@+id/upd">
+
+    </item>
+    <item
+        android:title="Delete Clerk"
+        android:id="@+id/del"></item>
+    <item
+        android:title="Call"
+        android:id="@+id/call">
+
+    </item>
+
+    <item
+        android:title="Send sms"
+        android:id="@+id/sendsms"></item>
+
+    <item
+        android:title="Refresh"
+        android:id="@+id/refresh"></item>
+
+
+    <item android:id="@+id/view"
+        android:title="View Clerk"></item>
+
+
+    <item android:id="@+id/logout"
+        android:title="LogOut"></item>
+
+
+
+</menu>

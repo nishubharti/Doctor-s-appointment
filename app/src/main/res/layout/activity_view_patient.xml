@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPatient"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:id="@+id/lay"
+    android:background="@mipmap/ima">
+
+    <TableRow android:padding="5dip">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Patient"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_span="2"
+            android:layout_marginBottom="20dp"
+
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="ID"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_column="0"
+
+
+            />
+        <TextView
+
+            android:id="@+id/pid"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:text="id"
+
+
+
+
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="name"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/pphone"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="phone"/>
+
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/paddress"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="address"
+
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Problem"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/prblm"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="prblm"/>
+
+
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Treatment Undertaken"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/trt"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="treatment"
+            />
+
+
+
+    </TableRow>
+
+
+
+
+    <TableRow android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:text="back"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="onBack"/>
+
+
+    </TableRow>
+
+
+</TableLayout>
